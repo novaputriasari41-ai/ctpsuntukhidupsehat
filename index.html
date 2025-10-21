@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CTPS UNTUK HIDUSEHAT</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">🧼 CTPS <span>UNTUK HIDUSEHAT</span></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#materi">Materi</a></li>
+        <li><a href="#langkah">Langkah CTPS</a></li>
+        <li><a href="#quiz">Quiz</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>CTPS — Cuci Tangan Pakai Sabun</h1>
+    <p>Praktik sederhana yang menyelamatkan nyawa — untuk semua umur.<br><b>Your Hygiene, Your Health</b></p>
+    <button class="btn" onclick="mulaiSimulasi()">Mulai Simulasi 20s</button>
+    <button class="btn-outline" onclick="bukaQuiz()">Kerjakan Quiz</button>
+  </section>
+
+  <section id="materi" class="content">
+    <h2>Apa Itu CTPS?</h2>
+    <p>Cuci Tangan Pakai Sabun (CTPS) adalah kegiatan mencuci tangan menggunakan air bersih mengalir dan sabun pada waktu penting untuk mencegah penyebaran penyakit.</p>
+    <ul>
+      <li>Mencegah penyakit menular seperti diare dan ISPA.</li>
+      <li>Menjaga kebersihan diri dan lingkungan.</li>
+      <li>Meningkatkan kesehatan masyarakat.</li>
+    </ul>
+  </section>
+
+  <section id="langkah" class="content">
+    <h2>6 Langkah CTPS Sesuai WHO</h2>
+    <ol>
+      <li>Basahi tangan dengan air bersih mengalir.</li>
+      <li>Gunakan sabun secukupnya.</li>
+      <li>Gosok telapak tangan hingga berbusa.</li>
+      <li>Gosok punggung tangan kiri dan kanan bergantian.</li>
+      <li>Gosok sela-sela jari dan ujung kuku.</li>
+      <li>Bilas dan keringkan dengan handuk bersih.</li>
+    </ol>
+  </section>
+
+  <section id="quiz" class="quiz-section">
+    <h2>Quiz CTPS</h2>
+    <div id="quiz-box">
+      <p id="question">Klik tombol di bawah untuk memulai quiz</p>
+      <div id="options"></div>
+      <button id="next-btn" onclick="nextQuestion()">Mulai</button>
+    </div>
+  </section>
+
+  <section id="video" class="content">
+    <h2>Video Edukasi CTPS</h2>
+    <iframe width="360" height="200" src="https://www.youtube.com/embed/nH14sS3pWUo" allowfullscreen></iframe>
+  </section>
+
+  <section id="tentang" class="content">
+    <h2>Tentang Aplikasi</h2>
+    <p>Aplikasi ini dibuat untuk edukasi kebersihan tangan dan kesehatan masyarakat berdasarkan materi CTPS Kemenkes dan WHO.</p>
+    <p><b>Pesan:</b> “CTPS, langkah kecil yang menyelamatkan banyak jiwa.”</p>
+  </section>
+
+  <footer>
+    <p>© 2025 CTPS Untuk Hidusehat</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<section id="video">
+  <h2>Video Edukasi CTPS</h2>
+  <video width="100%" height="400" controls>
+    <source src="ctps.mp4" type="video/mp4">
+    Browser kamu tidak mendukung pemutar video.
+  </video>
+</section>
